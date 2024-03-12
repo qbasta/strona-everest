@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "/src/images/logo3.svg";
 import { animateScroll as scroll } from "react-scroll";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import {
@@ -48,7 +49,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
-              <img alt="" src="src/images/logo3.svg" width="220" height="60" />
+              <img alt="logo" src={Logo} width="220" height="60" />
             </SocialLogo>
             <WebsiteRights>
               EVEREST © {new Date().getFullYear()} Wszystkie prawa zastrzeżone
