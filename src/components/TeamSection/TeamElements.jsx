@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
@@ -9,7 +8,7 @@ export const InfoContainer = styled.div`
   background: #f9f9f9;
 
   @media (max-width: 768px) {
-    margin-top: 800px;
+    min-height: 800px;
     padding: 20px;
   }
 `;

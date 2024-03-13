@@ -24,7 +24,8 @@ export const FormWrap = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 400px) {
-    height: 80%;
+    height: 90%;
+    margin-top: 10px;
   }
 `;
 
