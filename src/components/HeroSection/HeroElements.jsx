@@ -80,11 +80,26 @@ export const HeroP = styled.p`
   max-width: 600px;
 
   @media screen and (max-width: 768px) {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   @media screen and(max-width: 480px) {
-    font-size: 18px;
+    font-size: 16px;
+  }
+`;
+
+export const LogoImage = styled.img`
+  width: 400px;
+  height: 160px;
+
+  @media screen and (max-width: 768px) {
+    width: 330px;
+    height: 120px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 250px;
+    height: 80px;
   }
 `;
 

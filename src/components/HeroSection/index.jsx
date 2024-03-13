@@ -12,6 +12,7 @@ import {
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
+  LogoImage,
 } from "./HeroElements";
 
 const HeroSection = () => {
@@ -27,7 +28,7 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <img alt="logo" src={Logo} width="400" height="160" />
+        <LogoImage alt="logo" src={Logo} />
         <HeroP>
           {" "}
           Profesjonalna obsługa rachunkowa, podatkowa oraz kadrowo-płacowa dla

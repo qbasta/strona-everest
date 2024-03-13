@@ -9,7 +9,7 @@ export const InfoContainer = styled.div`
   background: #f9f9f9;
 
   @media (max-width: 768px) {
-    margin-top: 450px;
+    margin-top: 800px;
     padding: 20px;
   }
 `;
@@ -17,7 +17,7 @@ export const InfoContainer = styled.div`
 export const Card = styled.div`
   background-color: #f2f2f3;
   border-radius: 10px;
-  margin: 10px 5px;
+  margin: 20px 5px;
   width: 40%;
   padding: 20px;
   display: flex;
@@ -33,7 +33,7 @@ export const Card = styled.div`
 
   @media (max-width: 968px) {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
   }
 `;
 
