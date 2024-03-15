@@ -55,20 +55,3 @@ export const homeObjThree = {
   primary: true,
   darkText: true,
 };
-
-export const homeObjFour = {
-  id: "team",
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: "Premium bank",
-  headline: "BLABLA",
-  description: "AAASSS",
-  buttonLabel: "bababa",
-  imgStart: false,
-  //img: ,
-  alt: "xx",
-  dark: true,
-  primary: true,
-  darkText: true,
-};

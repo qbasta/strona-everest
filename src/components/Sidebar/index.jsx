@@ -18,19 +18,59 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>
+          <SidebarLink
+            to="about"
+            onClick={toggle}
+            smooth={true}
+            duration={300}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
             O biurze
           </SidebarLink>
-          <SidebarLink to="discover" onClick={toggle}>
+          <SidebarLink
+            to="discover"
+            onClick={toggle}
+            smooth={true}
+            duration={300}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
             Współpraca
           </SidebarLink>
-          <SidebarLink to="more" onClick={toggle}>
+          <SidebarLink
+            to="more"
+            onClick={toggle}
+            smooth={true}
+            duration={300}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
             Dodatkowe informacje
           </SidebarLink>
-          <SidebarLink to="services" onClick={toggle}>
+          <SidebarLink
+            to="services"
+            onClick={toggle}
+            smooth={true}
+            duration={300}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
             Oferta
           </SidebarLink>
-          <SidebarLink to="team" onClick={toggle}>
+          <SidebarLink
+            to="team"
+            onClick={toggle}
+            smooth={true}
+            duration={300}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
             Nasz zespół
           </SidebarLink>
         </SidebarMenu>

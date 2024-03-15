@@ -12,7 +12,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  min-height: 860px;
+  min-height: 760px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -102,4 +102,14 @@ export const Img = styled.img`
   width: 80%;
   margin: 0 0 10px 0;
   padding-right: 0;
+`;
+
+export const Separator = styled.div`
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(60deg, #004ab3, #003174, #004ab3);
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;

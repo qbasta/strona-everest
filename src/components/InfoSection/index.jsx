@@ -13,6 +13,7 @@ import {
   BtnWrap,
   Img,
   ImgWrap,
+  Separator,
 } from "./InfoElements";
 
 const InfoSection = ({
@@ -42,6 +43,7 @@ const InfoSection = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Separator />
               </TextWrapper>
             </Column1>
             <Column2>

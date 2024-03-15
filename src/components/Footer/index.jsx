@@ -27,6 +27,9 @@ const Footer = () => {
       <FooterWrap>
         <FooterLinksContainer>
           <FooterLinksWrapper>
+            <SocialLogo to="/" onClick={toggleHome}>
+              <img alt="logo" src={Logo} width="220" height="60" />
+            </SocialLogo>
             <FooterLinkItems>
               <FooterLinkTitle>Telefon</FooterLinkTitle>
               <FooterLink to="#">+48 691 344 276</FooterLink>
@@ -48,9 +51,6 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/" onClick={toggleHome}>
-              <img alt="logo" src={Logo} width="220" height="60" />
-            </SocialLogo>
             <WebsiteRights>
               EVEREST © {new Date().getFullYear()} Wszystkie prawa zastrzeżone
             </WebsiteRights>
