@@ -55,7 +55,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-40}
                 >
                   O biurze
                 </NavLinks>
@@ -67,7 +67,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-40}
                 >
                   Współpraca
                 </NavLinks>
@@ -79,7 +79,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-40}
                 >
                   Dodatkowe informacje
                 </NavLinks>
@@ -91,7 +91,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-40}
                 >
                   Oferta
                 </NavLinks>
@@ -103,7 +103,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-40}
                 >
                   Nasz zespół
                 </NavLinks>
