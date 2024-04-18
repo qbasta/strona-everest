@@ -9,7 +9,7 @@ export const Container = styled.div`
   right: 0;
   top: 0;
   z-index: 0;
-  overflow: hidden;
+  overflow: auto; // Zmienione z 'hidden' na 'auto'
   background: linear-gradient(
     108deg,
     rgba(242, 242, 242, 1) 0%,
@@ -99,6 +99,9 @@ export const MessageInput = styled.textarea`
   border-radius: 4px;
   height: 100px;
   resize: vertical;
+  overflow: auto; // Dodane do umożliwienia przewijania
+  max-height: 300px; // Maksymalna wysokość, którą można dostosować według potrzeb
+  max-width: 100%; // Zapewnia, że element nie wyjdzie poza swojego kontenera
 `;
 
 export const FormButton = styled.button`
