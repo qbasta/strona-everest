@@ -9,7 +9,7 @@ export const Container = styled.div`
   right: 0;
   top: 0;
   z-index: 0;
-  overflow: hidden;
+  overflow: auto; // Zmienione z 'hidden' na 'auto'
   background: linear-gradient(
     108deg,
     rgba(242, 242, 242, 1) 0%,
@@ -21,7 +21,6 @@ export const FormWrap = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 
   @media screen and (max-width: 400px) {
     height: 90%;
@@ -47,7 +46,6 @@ export const FormContent = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 
   @media screen and (max-width: 480px) {
     padding: 10px;
@@ -97,18 +95,25 @@ export const MessageInput = styled.textarea`
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
-  height: 100px;
+  height: 200px;
   resize: vertical;
+  overflow: auto; // Dodane do umożliwienia przewijania
+  max-height: 300px; // Maksymalna wysokość, którą można dostosować według potrzeb
+  max-width: 100%; // Zapewnia, że element nie wyjdzie poza swojego kontenera
 `;
 
 export const FormButton = styled.button`
-  background: #006aff;
+  background: ${({ disabled }) => (disabled ? "gray" : "#006aff")};
   padding: 16px 0;
   border: none;
   border-radius: 4px;
   color: #fff;
   font-size: 20px;
-  cursor: pointer;
+  cursor: ${({ disabled }) => (disabled ? "default" : "pointer")};
+
+  &:hover {
+    cursor: ${({ disabled }) => (disabled ? "default" : "pointer")};
+  }
 `;
 
 export const Text = styled.span`
